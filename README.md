@@ -16,6 +16,11 @@ Do `ruby make_game.rb`. You can make a puzzle by yourself.
 ![make_game](https://github.com/ashbb/unblockme/raw/master/make_game.png)
 
 
+Demo
+------
+
+[A tiny streaming flash video](http://www.rin-shun.com/shoes/unblockme_on_green_shoes.swf.html) recorded by CamStudio.
+
 Note
 -----
 
