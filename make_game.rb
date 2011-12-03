@@ -23,8 +23,8 @@ module Unblock
         if line[i+2] == '0'
           out << format(j, i+2, 2, :pink, :true)
         elsif i < 3
-          i = line[3..-1].index '0'
-          (out << format(j, i+3, 2, :pink, :true)) if i
+          ii = line[i+3..-1].index '0'
+          (out << format(j, i+3+ii, 2, :pink, :true)) if ii
         end
       end
       i = line.index '1'
@@ -41,8 +41,8 @@ module Unblock
         if line[j+2] == '2'
           out << format(j+2, i, 2, :lightblue, :false)
         elsif j < 3
-          j = line[3..-1].index '2'
-          (out << format(j+3, i, 2, :lightblue, :false)) if j
+          jj = line[j+3..-1].index '2'
+          (out << format(j+3+jj, i, 2, :lightblue, :false)) if jj
         end
       end
       j = line.index '3'
