@@ -1,4 +1,4 @@
-Unblock Me on Green Shoes
+Unblock Me on Colorful Shoes
 =====================
 
 **Unblock Me** is a very famous puzzle game. It's simple and addictive. 
@@ -7,7 +7,7 @@ The goal is to get the red block out of the board by sliding the other blocks ou
 Snapshots
 ----------
 
-Do `ruby unblockme.rb`. You can play Unblock Me on Green Shoes.
+Do `ruby unblockme.rb`. You can play Unblock Me on Colorful Shoes, Red, Green and Purple.
 
 ![unblockme](https://github.com/ashbb/unblockme/raw/master/unblockme.png)
 
