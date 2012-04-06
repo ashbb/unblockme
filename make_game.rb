@@ -62,7 +62,7 @@ end
 Shoes.app title: 'Unblock Me! - Make Game', width: 340, height: 370 do
   X, Y, W = 20, 50, 50
   COLORS = [pink, lightgreen, lightblue, gold, red]
-  ATTR = [:v2, :v3, :h2, :h3, :v2]
+  ATTR = [:h2, :h3, :v2, :v3, :h2]
   @colors, @game = [], Array.new(6){Array.new(6){'*'}}
   @color = COLORS.first
   extend Unblock
